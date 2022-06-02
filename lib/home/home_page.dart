@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             TextButton(
-              onPressed: () {},
+              onPressed: () => Get.toNamed('/getconnect'),
               child: const Text(
                 'GetConnect',
                 style: TextStyle(fontSize: 20),
